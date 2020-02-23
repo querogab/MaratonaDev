@@ -3,15 +3,81 @@
 	<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
+        <link href="estilo.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
         <title>Doe vida, doe sangue!</title>
 
 	</head>
 
 	<body>
-        <h1>DOE</h1>
-        <h2>A sua doação importa</h2>
+        <header>
 
-	</body>
+            <img class="logo" src="img/logo.png" alt="imagem de DOE">
+            <h2>A sua doação importa</h2>
+            <p>Até 3 vidas com uma doação</p>
+            <p>Mais de 38.000 doaçães são necessárias todos os dias</p>
+            <p>Apenas 1,9% da população brasieira doa sangue.</p>
 
+            <button>Quero ajudar</button>
+
+        </header>
+
+        <section class="form hide">
+            <h2>Entre na lista de doadores</h2>
+            <form action="/">
+                <input 
+                    type="text"
+                    name="name"
+                    placeholder="Nome Completo"
+                >
+
+                <input 
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                >
+
+                <input 
+                    type="text"
+                    name="blood"
+                    placeholder="Tipo sanguíneo"
+                >
+
+                <button>Quero ajudar</button>
+
+            </form>
+        </section>
+
+        <main>
+            <h2>Últimos <span>doadores</span></h2>
+
+            <section class="donors">
+
+                <div class="donor">
+                    <div class="blood">AB+</div>
+                    <p>Maria da Silva</p>
+                </div>
+
+                <div class="donor">
+                    <div class="blood">A+</div>
+                    <p>Fernanda Fernandes</p>
+                </div>
+
+                <div class="donor">
+                    <div class="blood">B+</div>
+                    <p>Joelma Calypso</p>
+                </div>
+                <div class="donor">
+                    <div class="blood">0+</div>
+                    <p>Lucinda Lucia</p>
+                </div>
+
+            </section>
+        </main>
+
+        <footer>Com 💜 Gabi</footer>
+    </body>
+
+    <script src="script.js"></script>
 	
 </html>
